@@ -1,0 +1,48 @@
+{
+  "name": "studio-api-services-project",
+  "version": "1.0.0",
+  "description": "Superblocks Ethereum Studio projects related operations micro service",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "build": "tsc",
+    "start:prod": "node -r ./tsconfig-paths-bootstrap.js dist/api/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuperblocksHQ/api-services-project.git"
+  },
+  "author": "Superblocks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SuperblocksHQ/api-services-project/issues"
+  },
+  "homepage": "https://superblocks.com",
+  "dependencies": {
+    "compression": "^1.7.3",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "express-async-errors": "^3.1.1",
+    "mongodb": "^3.1.13",
+    "node-fetch": "^2.3.0",
+    "passport": "^0.4.0",
+    "tsconfig-paths": "^3.7.0",
+    "passport-jwt": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/compression": "0.0.36",
+    "@types/cors": "^2.8.4",
+    "@types/dotenv": "^6.1.0",
+    "@types/express": "^4.16.1",
+    "@types/mongodb": "^3.1.19",
+    "@types/node": "^9.4.5",
+    "@types/node-fetch": "^2.1.4",
+    "@types/passport": "^1.0.0",
+    "@types/passport-jwt": "^3.0.1",
+    "nodemon": "^1.18.9",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.2.4"
+  }
+}
