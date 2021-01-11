@@ -22,8 +22,3 @@ To run compiled build please run:
 ```
 npm run start:prod
 ```
-
-### Documentation
-* Project structure: https://github.com/SuperblocksHQ/api-services-user/wiki/Project-structure
-* Style guidelines: https://github.com/SuperblocksHQ/api-services-user/wiki/Style-guide
-* API: https://github.com/SuperblocksHQ/api-services-project/wiki/API
